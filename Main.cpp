@@ -1,13 +1,18 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main(){
-    cout << "Enter a value for x and y: ";
-    double x;
-    double y;
-    cin >> x;
-    cin >> y;
-    cout << x + y;
+    cout << "what the circle: ";
+    double radius;
+    cin >> radius;
+    const double pi = 3.14;
+    double area = pi * pow(radius, 2);
+
+    cout << area;
+
+    // the world is round but if is a circle 
+
     return 0;
 }
